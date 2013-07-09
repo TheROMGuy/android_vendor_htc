@@ -75,3 +75,15 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/pyramid/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so
+
+# adsp firmware - (3.4 kernel)
+PRODUCT_COPY_FILES += \
+  vendor/htc/pyramid/proprietary/root/adsp/q6.b07:root/adsp/q6.b07 \
+  vendor/htc/pyramid/proprietary/root/adsp/q6.b06:root/adsp/q6.b06 \
+  vendor/htc/pyramid/proprietary/root/adsp/q6.b05:root/adsp/q6.b05 \
+  vendor/htc/pyramid/proprietary/root/adsp/q6.b04:root/adsp/q6.b04 \
+  vendor/htc/pyramid/proprietary/root/adsp/q6.b03:root/adsp/q6.b03 \
+  vendor/htc/pyramid/proprietary/root/adsp/q6.b02:root/adsp/q6.b02 \
+  vendor/htc/pyramid/proprietary/root/adsp/q6.b01:root/adsp/q6.b01 \
+  vendor/htc/pyramid/proprietary/root/adsp/q6.b00:root/adsp/q6.b00 \
+  vendor/htc/pyramid/proprietary/root/adsp/q6.mdt:root/adsp/q6.mdt
